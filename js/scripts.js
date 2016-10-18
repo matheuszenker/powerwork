@@ -26,7 +26,7 @@ $(function() {
 
 			var currentTimeString = hours + ":" + minutes + ":" + seconds;
 
-			if(seconds >= nowTime) {
+			if(minutes >= nowTime) {
 				document.title = name + ' ' + message;
 				btnStart.button('reset');
 				btnRelax.button('reset');
